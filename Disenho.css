@@ -1,0 +1,450 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+.fondo{
+  background-image: url("Imagenes/indice.jpg");
+  background-size: 120%;
+}
+.principal {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.titulo {
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
+}
+.btn-encriptar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  position: static;
+  width: 328px;
+  height: 67px;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(40, 151, 255, 0.5);
+  border-radius: 24px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 24px;
+  flex-grow: 0;
+  color: rgb(0, 0, 0);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 19px;
+  justify-content: center; 
+}
+.btn-encriptar:active{
+  background-color: rgba(253, 70, 70, 0.5);
+}
+.btn-encriptar:hover{
+  border-color: transparent;
+}
+.btn-desencriptar{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  position: static;
+  width: 328px;
+  height: 67px;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 24px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 24px;
+  flex-grow: 0;
+  color: rgb(0, 0, 0);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 19px;
+  justify-content: center; 
+}
+.btn-desencriptar:active{
+  background-color: rgba(253, 70, 70, 0.5);
+}
+.btn-desencriptar:hover{
+  border-color: transparent;
+}
+.entrada {
+  border-top-left-radius: 32px;
+  text-transform:lowercase;
+  position: absolute;
+  width: 880px;
+  height: 630px;
+  left: 120px;
+  top: 125px;
+  padding-left: 40px;
+  padding-top: 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  resize: none;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  }
+::placeholder { color:rgb(0, 68, 255) }
+
+.entrada:focus { 
+    border: none;
+    outline: none;
+   }
+.caja{
+  position: absolute;
+  width: 480px;
+  resize: none;
+  height: 750px;
+  left: 1000px;
+  top: 125px;
+  padding-left: 50px;
+  padding-top: 80px;
+  background:rgba(255, 255, 255, 0.5);
+  border-bottom-right-radius: 32px;
+  border-top-right-radius: 32px;
+  }
+.caja h2{
+  position: static;
+  width: 336px;
+  height: 58px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 120%;
+  text-align: center;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+.caja h3{
+  position: static;
+  width: 336px;
+  height: 48px;
+  left: 0px;
+  top: 74px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+.cajaMunheco, .cajaMunheco img {
+  padding-top: 40px;
+  background: rgba(255, 255, 255, 0);
+}
+.imgAlerta{
+  position: absolute;
+  left: 2px;
+  right: 0px;
+  top: 1.8px;
+  bottom: 0px;
+}
+ label {
+  position: static;
+  width: auto;
+  height: 18px;
+  left: 24px;
+  top: 0px;
+  padding-left: 25px;
+  font-weight: 600;
+  font-family: Inter;
+  font-style: normal;
+  font-size:20px;
+  line-height: 100%;
+  color:rgb(0, 0, 0);
+ }
+.alerta{
+  background-color: rgba(255, 255, 255, 0.5); 
+  padding: 0px;
+  position: absolute;
+  left: 120px;
+  top: 755px;
+  border-bottom-left-radius: 32px;
+  border: solid rgba(255, 255, 255, 0);
+  border-right-width: 413px;
+  border-left-width: 30px;
+  border-bottom-width: 96px;
+  border-top-width: px;
+ }
+ .botones{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 680px;
+  height: 67px;
+  left: 11%;
+  top: 795px;
+ }
+.logo{
+  position: absolute;
+  left: 100px;
+  right: 37.43%;
+  top: 40px;
+  bottom: 0%;
+}
+.mensaje{
+  position: absolute;
+  width: 400px;
+  height: 781px;
+  left: 60px;
+  top: 52px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  resize: none;
+  border:none;
+  background:transparent;
+}
+.mensaje:focus { 
+  border: none;
+  outline: none;
+ }
+.btn-copiar{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  position: absolute;
+  width: 336px;
+  height: 67px;
+  left: 25px;
+  top: 660px;
+  box-sizing: border-box;
+  background-color: rgba(116, 116, 116, 0.5);
+  border-style: solid;
+  border-radius: 24px;
+  border-color: rgb(0, 0, 0);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 19px;
+  text-align: center;
+  flex: none;
+  order: 0;
+  margin: 0px 8px;
+  justify-content: center;
+}
+.btn-copiar:active{
+  background-color: rgba(253, 70, 70, 0.5);
+}
+.btn-copiar:hover{
+  border-color: transparent;
+}
+
+@media only screen and (min-width: 1224px) and (max-width: 1590px){ 
+.principal{
+  height:100%;
+}
+.entrada{
+  top:8rem;
+  left:7.1rem;
+  word-wrap: break-word;
+  } 
+.logo{
+  left:1rem;
+  width:8%;
+}
+.botones{
+  top:34.5rem;
+  left:5rem;
+}
+.alerta{
+  left:7.3rem;
+  top:32rem;
+}
+.btn-encriptar,.btn-desencriptar{
+  font-size:24px;
+  height:65px;
+}
+.caja{
+  top: 1.5rem;
+  height:38rem;
+  left:56rem;
+}
+.cajaMunheco{
+  padding-top:0rem;
+  height:20rem;
+  padding-left:1rem;
+}
+.cajaMunheco img{
+  width:18rem;
+  padding-left: 1.5rem;
+}
+.btn-copiar{
+  top:33rem;
+  height:64px;
+  font-size:24px;
+}
+.mensaje{
+  width: 20rem;
+  left:2.5rem;
+  word-wrap: break-word;
+}
+
+} 
+@media only screen and (min-width: 481px) and (max-width: 1023px){ 
+  .principal{
+    height:100%;
+  }
+  .entrada{
+    width:34rem;
+    top:10rem;
+    left:5.1rem;
+    } 
+  .logo{
+    top: 3rem;
+    left:2.8rem;
+    width:18%;
+  }
+  .botones{
+    top:32.5rem;
+    left:4rem;
+  }
+    .alerta{
+      left:5.3rem;
+      top:30rem;
+    }
+  .btn-encriptar,.btn-desencriptar{
+    width: 280px;
+    font-size:24px;
+    height:65px;
+    margin: 0.5rem;
+  }
+  .caja{
+    width:36rem;
+    left:4.3rem;
+    top:40rem;
+    padding:0;
+    height:100%
+  }
+  .cajaMunheco{
+    padding-top:1rem;
+    height:auto;
+    border-radius: 32px;
+    padding-left: 5.5rem;
+  }
+  .cajaMunheco h2,h3{
+    font-size:24px;
+    width:80%;
+    margin: 0.5rem;
+    height:auto;
+  }
+  .cajaMunheco img{
+    display: none;
+  }
+  .btn-copiar{
+    top:24rem;
+    width:32rem;
+    height:65px;
+    font-size:24px;
+  }
+  .mensaje{
+    height:auto;
+    left:2.5rem;
+    flex: 1 1 auto;
+  }
+  } 
+@media only screen and (min-device-width : 300px) and (max-device-width : 480px){ 
+    .principal{
+      height:100%;
+    }
+    .entrada{
+      width:20rem;
+      top:8rem;
+      left:1.5rem;
+      font-size: 22px;
+      word-wrap: break-word;
+      } 
+    .logo{
+      top: 1rem;
+      left: -1.5rem;
+      width:25%;
+    }
+    .botones{     
+      flex-direction: column;
+      top:25.5rem;
+      left:1.5rem;
+    }
+    .alerta{
+      left:2.3rem;
+      top:24rem;
+    }
+    label{
+      font-size:12px;
+    }
+    .btn-encriptar,.btn-desencriptar{
+      width: 320px;
+      font-size:20px;
+      height:65px;
+      margin: 0.5rem;
+    }
+    .caja{
+      width:20rem;
+      left:2rem;
+      top:37rem;
+      padding:0;
+      height:6rem;
+    }
+    .cajaMunheco{
+      padding-top:0.5rem;
+      height:auto;
+      border-radius: 32px;
+      padding-left: 1.5rem;
+    }
+    .cajaMunheco h2{
+      font-size:14px;
+      width:80%;
+      margin: 0.5rem;
+      height:100%;
+    }
+    .cajaMunheco h3{
+      font-size:12px;
+      width:80%;
+      margin: 0.5rem;
+      height:100%;
+    }
+    .cajaMunheco img{
+      display: none;
+    }
+    .btn-copiar{
+      top:8rem;
+      width: 320px;
+      height:62px;
+      font-size:20px;
+      left:-0.5rem;
+    }
+    .mensaje{
+      width: 17rem;
+      top: 0.5rem;
+      height:8rem;
+      left:1.5rem;
+      font-size: 14px;
+      word-wrap: break-word;
+    }
+  } 

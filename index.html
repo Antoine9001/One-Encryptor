@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" href="Imagenes/Lock.png">
+  <link rel="stylesheet"  href="Disenho.css">
+  <title>ONE Encryptor</title>
+</head>
+<body class="fondo">
+  <main class="principal">
+      <img src="Imagenes/Logo.png" class="logo" onclick="home()">      
+    <section>
+      <form action="">       
+        <textarea class="entrada" type="text" name="input-texto" maxlength="500" id="input-texto" placeholder="Ingrese el texto aquí"></textarea>
+        <div class="alerta">
+          <img src="Imagenes/Vector.png" class="imgAlerta">
+          <label for="input-texto">Solo se permiten letras minúsculas y sin acentos.</label>
+        </div>
+        <div class="botones">
+          <input class="btn-encriptar" type="submit" value="Encriptar" id="btn-encriptar" >
+          <input class="btn-desencriptar" type="submit" value="Desencriptar" id="btn-desencriptar">
+        </div>
+      </form>
+    </section>
+
+    <section class="caja">
+      <div id="oculto" class="cajaMunheco">
+        <img src="Imagenes/Muñeco.png"> 
+        <h2>No hay mensaje que encriptar ＞﹏＜</h2>
+        <h3>Ingresa el texto que desees encriptar o desencriptar.</h3>
+      </div>      
+      <div id="mostrar">
+        <textarea class="mensaje" type="text" id="mensaje" placeholder="Y el mensaje (⊙_⊙)？"></textarea>
+        <input class="btn-copiar" type="submit" value="Copiar" id="btn-copiar">
+      </div>
+    </section>
+  </main>
+
+  <script src="Codigo.js"></script>
+</body>
+</html>
